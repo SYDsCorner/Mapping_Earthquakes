@@ -17,9 +17,9 @@ let map = L.map("mapid", {
 // Coordinates for each point to be used in the line.
 let line = [
     [37.6213, -122.3790], // SFO
-    [30.1975, -97.6664], // AUS
+    [30.1975, -97.6664],  // AUS
     [43.6777, -79.6248],  // YYZ
-    [40.6413, -73.7781] // JFK
+    [40.6413, -73.7781]   // JFK
   ];
 
 // Create a polyline using the line coordinates and make the line blue.
