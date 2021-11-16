@@ -1,14 +1,14 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
-// We create the street view tile layer that will be the default background of our map.
+// We create the day navigation view tile layer that will be the default background of our map.
 let day = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-guidance-day-v4/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     accessToken: API_KEY
 });
 
-// We create the dark view tile layer that will be an option for our map.
+// We create the night navigation view tile layer that will be an option for our map.
 let night = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-guidance-night-v4/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
@@ -17,8 +17,8 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 // Create a base layer that holds both maps.
 let baseMaps = {
-  Day_Navigation: day,
-  Night_Navigation: night
+  "Day Navigation": day,
+  "Night Navigation": night
 };
 
 // Create the map object with center, zoom level and default layer.
