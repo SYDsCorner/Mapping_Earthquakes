@@ -32,12 +32,20 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 
+// --------------------- //
+//  Add Earthquake Data  //
+// --------------------- //
+
 // Accessing the airport GeoJSON URL
 let earthquakesPastSevenDays = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // Retrieve the earthquake GeoJSON data.
 d3.json(earthquakesPastSevenDays).then(function(data) {
   console.log(data);
+
+  // -------------------- //
+  //  Add Style & Colors  //
+  // -------------------- //
 
   // This function returns the style data for each of the earthquakes we plot on
   // the map. We pass the magnitude of the earthquake into a function
@@ -82,6 +90,10 @@ d3.json(earthquakesPastSevenDays).then(function(data) {
     }
     return magnitude * 4;
   }
+
+  // ------------------------------ //
+  //  Add a circleMarker & a Popup  //
+  // ------------------------------ //
 
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJson(data, {
