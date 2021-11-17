@@ -106,9 +106,9 @@ d3.json(earthquakesPastSevenDays).then(function(data) {
   }
 
 
-  // -------------------------- //
-  //  Add circleMarker & Popup  //
-  // -------------------------- //
+  // ------------------------------ //
+  //  Add a circleMarker & a Popup  //
+  // ------------------------------ //
 
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJson(data, {
