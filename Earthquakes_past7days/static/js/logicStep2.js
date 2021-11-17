@@ -70,6 +70,10 @@ d3.json(earthquakesPastSevenDays).then(function(data) {
     return magnitude * 4;
   }
 
+  // -------------------- //
+  //  Add a circleMarker  //
+  // -------------------- //
+
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJson(data, {
 
