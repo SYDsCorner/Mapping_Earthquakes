@@ -31,6 +31,9 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
+// --------------------- //
+//  Add Earthquake Data  //
+// --------------------- //
 
 // Accessing the airport GeoJSON URL
 let earthquakesPastSevenDays = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
