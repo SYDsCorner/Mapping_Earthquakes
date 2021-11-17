@@ -46,6 +46,10 @@ let overlays = {
 L.control.layers(baseMaps, overlays).addTo(map);
 
 
+// --------------------- //
+//  Add Earthquake Data  //
+// --------------------- //
+
 // Accessing the airport GeoJSON URL
 let earthquakesPastSevenDays = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
