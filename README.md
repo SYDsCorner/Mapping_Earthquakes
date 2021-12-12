@@ -18,7 +18,7 @@
      - [D3.js library](https://d3js.org/)
    - [Mapbox API](https://docs.mapbox.com/help/glossary/static-tiles-api/)
 
-- Data sourced: 
+- Data sources: 
    - GeoJSON data
      - [Earthquakes Past 7 Days](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
      - [Earthquakes with a magnitude greater than 4.5](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson) 
