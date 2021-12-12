@@ -26,7 +26,7 @@
 
 ## Results 
 
-- **The interactive webpage is** "Mapping Earthquakes" 
+- **The webpage is** "Mapping Earthquakes" 
 
 - **The interactive features**
 
