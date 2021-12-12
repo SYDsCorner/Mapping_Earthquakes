@@ -24,15 +24,6 @@
      - [Earthquakes with a magnitude greater than 4.5](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson) 
      - [Tectonic Plate](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
 
-## Summary
-
-- **This earthquakes map** was built with earthquake data from around the world which came from the last seven days of earthquake GeoJSON data. 
-- **On the map,** 
-   - The magnitude and the location of each earthquake will be shown in a popup marker. 
-   - The diameter of the markers for each earthquake will reflect the magnitude of the earthquakes in their size and color. 
-   - Earthquakes with higher magnitudes will appear larger and darker in color with a legend providing the context for the map data. 
-   - Finally, to illustrate the relationship between the location and frequency of seismic activity and tectonic plates, I added fault lines in the map.
-
 ## Results 
 
 - **The interactive webpage is** "Mapping Earthquakes" 
@@ -91,4 +82,11 @@
         ![3 dark_style](https://user-images.githubusercontent.com/89308251/142570131-39f396a5-9b02-4ff7-bb2e-58e7da7633fd.png)
 
 
+## Summary
 
+- **This earthquakes map** was built with earthquake data from around the world which came from the last seven days of earthquake GeoJSON data. 
+- **On the map,** 
+   - The magnitude and the location of each earthquake will be shown in a popup marker. 
+   - The diameter of the markers for each earthquake will reflect the magnitude of the earthquakes in their size and color. 
+   - Earthquakes with higher magnitudes will appear larger and darker in color with a legend providing the context for the map data. 
+   - Finally, to illustrate the relationship between the location and frequency of seismic activity and tectonic plates, I added fault lines in the map.
