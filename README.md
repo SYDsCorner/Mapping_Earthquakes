@@ -26,8 +26,6 @@
 
 ## Results 
 
-- **The webpage is** "Mapping Earthquakes" 
-
 - **The interactive features**
 
   - Earthquakes with tectonic plates
